@@ -456,3 +456,18 @@ main {
   background-color: var(--themeColor);
   border-radius: 20px;
 }
+
+@media only screen and (max-width: 450px) {
+  #skill {
+    padding: 50px 15px;
+  }
+  #skill .skill-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* -------------------- RESUME  SEction -------------------------------- */
+#resume {
+  padding: 70px 30px;
+  background-color: white;
+}
