@@ -25,30 +25,32 @@
       <nav>
         <ul>
           <li class="active">
-            <a href="#"><i class="fa-solid fa-house"></i>Главная</a>
+            <a href="#home"><i class="fa-solid fa-house"></i>Главная</a>
           </li>
           <li>
-            <a href="#"><i class="fa-solid fa-user"></i>Обо мне</a>
+            <a href="#about"><i class="fa-solid fa-user"></i>Обо мне</a>
           </li>
           <li>
-            <a href="#"><i class="fa-solid fa-briefcase"></i>Портфолио </a>
+            <a href="#portfolio"
+              ><i class="fa-solid fa-briefcase"></i>Портфолио
+            </a>
           </li>
           <li>
-            <a href="#"><i class="fa-solid fa-server"></i>Сервисы</a>
+            <a href="#service"><i class="fa-solid fa-server"></i>Сервисы</a>
           </li>
           <li>
-            <a href="#"><i class="fa-solid fa-envelope"></i>Контакты</a>
+            <a href="#contact"><i class="fa-solid fa-envelope"></i>Контакты</a>
           </li>
         </ul>
       </nav>
       <!-- ================ Navbar end ======== -->
       <!-- ============= Footer =================== -->
-      <div class="footer">
+      <!-- <div class="footer">
         <p>
           &copy; Copyright 2023 <br />
           Designed By <a href="/">MAyzhan</a>
         </p>
-      </div>
+      </div> -->
     </header>
     <!-- Mobile nav toogle -->
     <i class="fa-solid fa-bars" id="MenuBtn"></i>
@@ -513,6 +515,79 @@
       <section id="contact">
         <h1 class="sub-heading">Contact</h1>
         <div class="divider"></div>
+        <p class="sub-para">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe quam
+          laudantium nulla odit fuga, odio accusantium quo autem, quas sit
+          veniam dolorem voluptas dolorum illo aut aliquid itaque, voluptatibus
+          blanditiis?
+        </p>
+        <div class="contact-row">
+          <!-- left col -->
+          <div class="contact-left">
+            <!-- email -->
+            <div class="icon-box">
+              <div class="icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="info">
+                <h4>Email:</h4>
+                <p>moinokovaaijan@gmail.com</p>
+              </div>
+            </div>
+            <!-- call -->
+            <div class="icon-box">
+              <div class="icon">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="info">
+                <h4>Call:</h4>
+                <p>+7 (985) 212 43-64</p>
+              </div>
+            </div>
+            <!-- location -->
+            <div class="icon-box">
+              <div class="icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="info">
+                <h4>Location:</h4>
+                <p>г.Москва метро Авиамоторная</p>
+              </div>
+            </div>
+            <div class="map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.34159505793!2d37.7198919!3d55.75256800000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54aaecbb8aab9%3A0xd67adb12685fad5c!2sAviamotornaya!5e0!3m2!1sen!2sru!4v1685732503243!5m2!1sen!2sru"
+                width="100%"
+                height="250"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+          <!-- right col -->
+          <div class="contact-right">
+            <form action="">
+              <input type="text" name="name" id="name" placeholder="Ваше имя" />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Ваш email"
+              />
+              <input
+                type="text"
+                name="sudject"
+                id="subject"
+                placeholder="Subject"
+              />
+              <textarea name="msg" id="msg" rows="9" placeholder="Сообщение">
+              </textarea>
+              <input type="submit" value="Отправить" />
+            </form>
+          </div>
+        </div>
       </section>
     </main>
 
