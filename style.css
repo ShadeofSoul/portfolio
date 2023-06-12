@@ -834,8 +834,6 @@ main {
 #contact .contact-row .contact-right form {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  margin: 20px 0;
 }
 #contact .contact-row .contact-right form input,
 #contact .contact-row .contact-right form textarea {
