@@ -22,6 +22,14 @@
 }
 /* ========= HEAder ======== */
 
+a{
+  text-decoration: none;
+  color: var(--textColor);
+}
+a:hover{
+  color: var(--themeColor);
+}
+
 header {
   height: 100vh;
   width: 300px;
